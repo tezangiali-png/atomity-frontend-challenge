@@ -1,3 +1,18 @@
 *.eml
 *.mp4
 *.zip
+atomity-challenge-src/
+
+# Internal planning/audit docs — reference material for this build, not
+# required for submission, and some contain private details (deadline,
+# contact email) from the invitation email. Kept locally, never published.
+docs/
+
+# Next.js / Node
+node_modules/
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+.env*.local
+npm-debug.log*
